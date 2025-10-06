@@ -18,7 +18,7 @@ export const metadata = {
 };
 
 // —— Config ——
-const BUSINESS_NAME = "Sguild Nail Techs";
+const BUSINESS_NAME = "Sguild Nail Technicians";
 // Replace with your real business number (E.164 format is safest) or set NEXT_PUBLIC_SGUILD_NAILS_PHONE
 const PHONE = process.env.NEXT_PUBLIC_SGUILD_NAILS_PHONE || ""; // env-driven; falls back to contact form if empty
 const CONTACT_PATH = "/contact"; // Fallback route for contact form
@@ -52,7 +52,7 @@ export default function DallasPage() {
           <Link href="/" className="flex items-center gap-3" aria-label={`${BUSINESS_NAME} home`}>
             <img src={LOGO_SRC} alt="Sguild Nail Techs logo" className="h-9 w-auto" />
             <span className="text-base font-semibold tracking-tight text-slate-900">
-              Sguild <span className="text-slate-500">Nail Techs</span>
+              Sguild <span className="text-slate-500">Nails</span>
             </span>
           </Link>
 
