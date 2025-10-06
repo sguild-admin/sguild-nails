@@ -65,7 +65,7 @@ function Header() {
       <div id="mobile-menu" className={`md:hidden border-t border-slate-200 bg-white ${open ? "" : "hidden"}`}>
         <div className="px-4 py-3 grid gap-3 text-base">
           <Link href="#services" className="block hover:text-pink-600">Services</Link>
-          <Link href="#faq" className="block hover:text-pink-600">FAQ</Link>
+          <Link href="#faq" className="block hover:text-pink-600">FAQs</Link>
           <Link href="#contact" className="block hover:text-pink-600">Book Now</Link>
         </div>
       </div>
@@ -78,9 +78,7 @@ function Footer() {
     <footer className="border-t border-slate-200">
       <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-4">
         <p>© {new Date().getFullYear()} Sguild Nails</p>
-        <nav className="flex gap-6">
-          <Link href="#faq" className="hover:text-slate-700">FAQ</Link>
-        </nav>
+        <p>Dallas, TX</p>
       </div>
     </footer>
   );
